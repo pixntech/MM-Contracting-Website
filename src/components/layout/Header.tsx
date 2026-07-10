@@ -5,8 +5,9 @@ import { useTranslation } from 'react-i18next'
 import { cn } from '../../utils/cn'
 import { mainNavigation } from '../../data/navigation'
 import { Icon } from '../ui/Icon'
-import { Button } from '../ui/Button'
 import { LanguageSwitcher } from '../ui/LanguageSwitcher'
+
+const NAV_EXCLUDE = ['Contact']
 
 export function Header() {
   const { t } = useTranslation()
@@ -52,8 +53,11 @@ export function Header() {
     'Certificates': 'nav.certificates',
     'Partners': 'nav.partners',
     'Gallery': 'nav.gallery',
-    'Contact': 'nav.contact',
   }
+
+  const visibleNav = mainNavigation.filter(
+    (link) => !NAV_EXCLUDE.includes(link.label)
+  )
 
   return (
     <header
@@ -98,7 +102,7 @@ export function Header() {
             <LanguageSwitcher />
 
             <nav className="hidden lg:flex items-center gap-1" role="navigation" aria-label={t('header.navAria')}>
-              {mainNavigation.map((link) => (
+              {visibleNav.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
@@ -113,15 +117,25 @@ export function Header() {
                   {t(navKeyMap[link.label] || link.label)}
                 </Link>
               ))}
-              <Button
-                size="sm"
-                href={isHome ? '/#contact' : '/contact'}
-                className="ms-4"
-                onClick={() => handleNavClick('/#contact')}
-              >
-                {t('header.getInTouch')}
-              </Button>
             </nav>
+
+            <Link
+              to={isHome ? '/#contact' : '/contact'}
+              onClick={() => handleNavClick('/#contact')}
+              className={cn(
+                'hidden lg:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-xl transition-all duration-300',
+                'backdrop-blur-md border bg-gradient-to-br from-primary/90 to-primary/70',
+                'text-white shadow-lg',
+                'hover:scale-105 hover:shadow-xl hover:shadow-primary/30 active:scale-95',
+                scrolled || !isHome
+                  ? 'border-white/20 hover:border-white/40 shadow-primary/20'
+                  : 'border-white/30 hover:border-white/60 shadow-primary/10'
+              )}
+              aria-label={t('header.getInTouch')}
+            >
+              <Icon name="Phone" size={16} />
+              {t('header.getInTouch')}
+            </Link>
 
             <button
               className={cn(
@@ -149,7 +163,7 @@ export function Header() {
             className="lg:hidden bg-white border-t border-border"
           >
             <nav className="content-container py-6 flex flex-col gap-2" role="navigation" aria-label={t('header.mobileNavAria')}>
-              {mainNavigation.map((link) => (
+              {visibleNav.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
@@ -159,9 +173,16 @@ export function Header() {
                   {t(navKeyMap[link.label] || link.label)}
                 </Link>
               ))}
-              <Button href="/contact" className="mt-4" onClick={() => setIsOpen(false)}>
+
+              <Link
+                to="/contact"
+                onClick={() => setIsOpen(false)}
+                className="mt-2 flex items-center justify-center gap-2 w-full px-5 py-3.5 text-sm font-semibold rounded-xl transition-all duration-300 backdrop-blur-md border bg-gradient-to-br from-primary/90 to-primary/70 text-white shadow-lg border-white/20 hover:border-white/40 hover:shadow-xl hover:shadow-primary/30 active:scale-[0.97]"
+                aria-label={t('header.getInTouch')}
+              >
+                <Icon name="Phone" size={16} />
                 {t('header.getInTouch')}
-              </Button>
+              </Link>
             </nav>
           </motion.div>
         )}

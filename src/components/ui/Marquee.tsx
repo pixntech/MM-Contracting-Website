@@ -1,5 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react'
-import { motion, useMotionValue, useAnimationFrame } from 'framer-motion'
+import { useMemo, memo } from 'react'
 import { cn } from '../../utils/cn'
 
 interface MarqueeProps<T> {
@@ -12,62 +11,31 @@ interface MarqueeProps<T> {
   getItemKey?: (item: T, index: number) => string
 }
 
-export function Marquee<T>({
+function MarqueeInner<T>({
   items,
   renderItem,
   direction,
-  speed = 0.1,
+  speed = 30,
   className,
   maskEdges = false,
   getItemKey = (_item, i) => String(i),
 }: MarqueeProps<T>) {
-  const [paused, setPaused] = useState(false)
-  const x = useMotionValue(0)
-  const setWidthRef = useRef(0)
-  const timeRef = useRef(0)
-  const innerRef = useRef<HTMLDivElement>(null)
+  const animationName = direction === 'left' ? 'marquee-left' : 'marquee-right'
 
-  const handleMouseEnter = useCallback(() => setPaused(true), [])
-  const handleMouseLeave = useCallback(() => setPaused(false), [])
-
-  useEffect(() => {
-    if (innerRef.current) {
-      const w = innerRef.current.scrollWidth / 2
-      setWidthRef.current = w
-      if (direction === 'right') {
-        x.set(-w)
-      }
-    }
-  }, [items, direction, x])
-
-  useAnimationFrame((time) => {
-    if (timeRef.current === 0) timeRef.current = time
-    const delta = time - timeRef.current
-    timeRef.current = time
-
-    if (!paused && setWidthRef.current > 0) {
-      const move = direction === 'left' ? -speed : speed
-      const next = x.get() + move * (delta / 16.67)
-      x.set(next)
-
-      if (direction === 'left' && next <= -setWidthRef.current) {
-        x.set(next + setWidthRef.current)
-      } else if (direction === 'right' && next >= 0) {
-        x.set(next - setWidthRef.current)
-      }
-    }
-  })
+  const duration = useMemo(() => Math.max(10, 60 - speed * 55), [speed])
+  const loopItems = useMemo(
+    () => [...items, ...items, ...items],
+    [items]
+  )
 
   return (
     <div
+      dir="ltr"
       className={cn(
-        'overflow-hidden select-none',
-        maskEdges &&
-          '[mask-image:linear-gradient(to_right,transparent_3%,black_12%,black_88%,transparent_97%)]',
+        'w-full max-w-full overflow-hidden select-none scrollbar-none',
+        maskEdges && '[mask-image:linear-gradient(to_right,transparent_3%,black_12%,black_88%,transparent_97%)]',
         className
       )}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       role="list"
       aria-label={
         direction === 'left'
@@ -75,23 +43,33 @@ export function Marquee<T>({
           : 'Scrolling content left to right'
       }
     >
-      <motion.div
-        ref={innerRef}
-        className="flex"
-        style={{ x, willChange: 'transform' }}
-        aria-hidden={false}
+      <div
+        dir="ltr"
+        className="flex flex-row flex-nowrap w-max whitespace-nowrap hover:[animation-play-state:paused]"
+        style={{
+          animationName,
+          animationDuration: `${duration}s`,
+          animationTimingFunction: 'linear',
+          animationIterationCount: 'infinite',
+          willChange: 'transform',
+        }}
       >
-        <div className="flex shrink-0">{items.map((item, i) => (
-          <div key={`a-${getItemKey(item, i)}`} className="shrink-0">
-            {renderItem(item, i)}
-          </div>
-        ))}</div>
-        <div className="flex shrink-0" aria-hidden="true">{items.map((item, i) => (
-          <div key={`b-${getItemKey(item, i)}`} className="shrink-0">
-            {renderItem(item, i)}
-          </div>
-        ))}</div>
-      </motion.div>
+        {loopItems.map((item, i) => {
+          const originalIndex = i % items.length
+
+          return (
+            <div
+              key={`${Math.floor(i / items.length)}-${getItemKey(item, originalIndex)}`}
+              className="shrink-0"
+              dir="auto"
+            >
+              {renderItem(item, originalIndex)}
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
+
+export const Marquee = memo(MarqueeInner) as typeof MarqueeInner

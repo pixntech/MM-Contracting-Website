@@ -27,7 +27,8 @@ export function CertificateModal({
   hasPrev,
   hasNext,
 }: CertificateModalProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isRtl = i18n.language === 'ar'
 
   const statusLabel: Record<string, string> = {
     active: t('certificates.statusActive'),
@@ -38,10 +39,15 @@ export function CertificateModal({
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
-      if (e.key === 'ArrowLeft' && onPrev) onPrev()
-      if (e.key === 'ArrowRight' && onNext) onNext()
+      if (isRtl) {
+        if (e.key === 'ArrowLeft' && onNext) onNext()
+        if (e.key === 'ArrowRight' && onPrev) onPrev()
+      } else {
+        if (e.key === 'ArrowLeft' && onPrev) onPrev()
+        if (e.key === 'ArrowRight' && onNext) onNext()
+      }
     },
-    [onClose, onPrev, onNext]
+    [onClose, onPrev, onNext, isRtl]
   )
 
   useEffect(() => {
@@ -147,7 +153,11 @@ export function CertificateModal({
                       }`}
                       aria-label={t('certificates.prevCertificateAria')}
                     >
-                      <Icon name="ChevronRight" size={16} className="rotate-180" />
+                      {isRtl ? (
+                        <Icon name="ChevronRight" size={16} />
+                      ) : (
+                        <Icon name="ChevronRight" size={16} className="rotate-180" />
+                      )}
                       {t('certificates.previous')}
                     </button>
                   )}
@@ -163,7 +173,11 @@ export function CertificateModal({
                       aria-label={t('certificates.nextCertificateAria')}
                     >
                       {t('certificates.next')}
-                      <Icon name="ChevronRight" size={16} />
+                      {isRtl ? (
+                        <Icon name="ChevronRight" size={16} className="rotate-180" />
+                      ) : (
+                        <Icon name="ChevronRight" size={16} />
+                      )}
                     </button>
                   )}
                 </div>

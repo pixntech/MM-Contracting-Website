@@ -41,16 +41,22 @@ export function CertificatesPage() {
     return result
   }, [activeCategory, searchQuery])
 
-  const currentIndex = selected ? filtered.findIndex((c) => c.id === selected.id) : -1
-
   const handlePrev = () => {
     const idx = filtered.findIndex((c) => c.id === selected?.id)
-    if (idx > 0) setSelected(filtered[idx - 1])
+    if (idx > 0) {
+      setSelected(filtered[idx - 1])
+    } else {
+      setSelected(filtered[filtered.length - 1])
+    }
   }
 
   const handleNext = () => {
     const idx = filtered.findIndex((c) => c.id === selected?.id)
-    if (idx < filtered.length - 1) setSelected(filtered[idx + 1])
+    if (idx < filtered.length - 1) {
+      setSelected(filtered[idx + 1])
+    } else {
+      setSelected(filtered[0])
+    }
   }
 
   const catLabelKeys: Record<string, string> = {
@@ -161,10 +167,10 @@ export function CertificatesPage() {
         <CertificateModal
           certificate={selected}
           onClose={() => setSelected(null)}
-          onPrev={currentIndex > 0 ? handlePrev : undefined}
-          onNext={currentIndex < filtered.length - 1 ? handleNext : undefined}
-          hasPrev={currentIndex > 0}
-          hasNext={currentIndex < filtered.length - 1}
+          onPrev={handlePrev}
+          onNext={handleNext}
+          hasPrev={filtered.length > 1}
+          hasNext={filtered.length > 1}
         />
       )}
     </div>
