@@ -465,6 +465,27 @@
     "switchToArabic": "العربية",
     "switchToEnglish": "English"
   },
+  "admin": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "news": "News",
+    "logout": "Logout",
+    "addProject": "Add Project",
+    "editProject": "Edit Project",
+    "addNews": "Add News Item",
+    "editNews": "Edit News Item",
+    "create": "Create",
+    "update": "Update",
+    "totalProjects": "Total Projects",
+    "totalNews": "Total News",
+    "latestProject": "Latest Project",
+    "latestNews": "Latest News"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved. Let's get you back on track.",
+    "cta": "Back to Homepage"
+  },
   "common": {
     "loading": "Loading",
     "ariaCurrentPage": "Current page",
@@ -472,6 +493,7 @@
     "height": "Height",
     "employees": "Employees",
     "projects": "Projects",
-    "professionals": "Professionals"
+    "professionals": "Professionals",
+    "cancel": "Cancel"
   }
 }

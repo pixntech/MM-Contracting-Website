@@ -460,6 +460,27 @@
     "switchToArabic": "العربية",
     "switchToEnglish": "English"
   },
+  "admin": {
+    "dashboard": "لوحة التحكم",
+    "projects": "المشاريع",
+    "news": "الأخبار",
+    "logout": "تسجيل الخروج",
+    "addProject": "إضافة مشروع",
+    "editProject": "تعديل المشروع",
+    "addNews": "إضافة خبر",
+    "editNews": "تعديل الخبر",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "totalProjects": "إجمالي المشاريع",
+    "totalNews": "إجمالي الأخبار",
+    "latestProject": "أحدث مشروع",
+    "latestNews": "أحدث خبر"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها. دعنا نعيدك إلى المسار الصحيح.",
+    "cta": "العودة إلى الصفحة الرئيسية"
+  },
   "common": {
     "loading": "جارٍ التحميل",
     "ariaCurrentPage": "الصفحة الحالية",
@@ -467,6 +488,7 @@
     "height": "ارتفاع",
     "employees": "موظف",
     "projects": "مشروع",
-    "professionals": "محترف"
+    "professionals": "محترف",
+    "cancel": "إلغاء"
   }
 }

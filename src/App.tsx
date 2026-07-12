@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { AuthProvider } from './context/AuthContext'
 
 const Layout = lazy(() =>
   import('./components/layout/Layout').then((m) => ({ default: m.Layout }))
@@ -17,6 +18,35 @@ const CertificatesPage = lazy(() =>
 )
 const PartnersPage = lazy(() =>
   import('./pages/PartnersPage').then((m) => ({ default: m.PartnersPage }))
+)
+
+const AdminLogin = lazy(() =>
+  import('./pages/admin/AdminLogin').then((m) => ({ default: m.AdminLogin }))
+)
+const AdminDashboard = lazy(() =>
+  import('./pages/admin/AdminDashboard').then((m) => ({ default: m.AdminDashboard }))
+)
+const ProjectsManager = lazy(() =>
+  import('./pages/admin/ProjectsManager').then((m) => ({ default: m.ProjectsManager }))
+)
+const AdminNews = lazy(() =>
+  import('./pages/admin/AdminNews').then((m) => ({ default: m.AdminNews }))
+)
+const AdminCertificates = lazy(() =>
+  import('./pages/admin/AdminCertificates').then((m) => ({ default: m.AdminCertificates }))
+)
+const AdminServices = lazy(() =>
+  import('./pages/admin/AdminServices').then((m) => ({ default: m.AdminServices }))
+)
+const AdminLayout = lazy(() =>
+  import('./components/admin/AdminLayout').then((m) => ({ default: m.AdminLayout }))
+)
+const ProtectedRoute = lazy(() =>
+  import('./components/admin/ProtectedRoute').then((m) => ({ default: m.ProtectedRoute }))
+)
+
+const NotFound = lazy(() =>
+  import('./pages/NotFound').then((m) => ({ default: m.NotFound }))
 )
 
 function PageLoading() {
@@ -48,18 +78,31 @@ function MetaUpdater() {
 export default function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<PageLoading />}>
-        <MetaUpdater />
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/certificates" element={<CertificatesPage />} />
-            <Route path="/partners" element={<PartnersPage />} />
-          </Route>
-        </Routes>
-      </Suspense>
+      <AuthProvider>
+        <Suspense fallback={<PageLoading />}>
+          <MetaUpdater />
+          <Routes>
+            <Route element={<Layout />}>
+              <Route path="/" element={<Home />} />
+              <Route path="/gallery" element={<GalleryPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/certificates" element={<CertificatesPage />} />
+              <Route path="/partners" element={<PartnersPage />} />
+            </Route>
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route element={<ProtectedRoute />}>
+              <Route element={<AdminLayout />}>
+                <Route path="/admin/dashboard" element={<AdminDashboard />} />
+                <Route path="/admin/projects" element={<ProjectsManager />} />
+                <Route path="/admin/news" element={<AdminNews />} />
+                <Route path="/admin/certificates" element={<AdminCertificates />} />
+                <Route path="/admin/services" element={<AdminServices />} />
+              </Route>
+            </Route>
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
+      </AuthProvider>
     </BrowserRouter>
   )
 }
