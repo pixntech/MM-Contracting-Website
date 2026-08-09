@@ -1,0 +1,45 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/sections/CompanyHistory.tsx",
+      "sha256": "52b38ed384392c69850724dc17ad022a4b4ce387554a7808744ec2333bf987ce"
+    },
+    {
+      "path": "src/components/ui/JourneyRoad.tsx",
+      "sha256": "d7a2f69b9bab25248942b92e886ea519a7af0143cbf928853263a557938c2d0a"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "eebae184bbd84d73004924a5cabba8a195c1e94c5da6c5281348792325946f86"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "1e9c2713e5c19b5e6c6386c5c9772a6e8ebb610c259630d580797ab6b4a59197"
+    }
+  ],
+  "deleted_if_present": [
+    "src/data/history.ts",
+    "src/components/ui/MilestoneCard.tsx"
+  ],
+  "timeline_order": [
+    "MMK Pack Factory — June 2018",
+    "Al Tameer Arabian Sales Office — August 2019",
+    "Luxor Azhar Institute — February 2020",
+    "Palm Hills Factory — January 2021",
+    "Hada'ek El Asema — August 2021",
+    "Rivan Compound — December 2022",
+    "Rivan Square — December 2022",
+    "Rivan Tower — December 2022",
+    "Mansoura Azhar Institute — In Progress"
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ],
+  "validation": {
+    "tsx_typescript_transpile": "PASS",
+    "json_parse": "PASS",
+    "powershell_no_trailing_array_comma": "PASS"
+  }
+}

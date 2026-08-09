@@ -1,0 +1,23 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/sections/Gallery.tsx",
+      "sha256": "19545a122b52c53120f4a21942ba29c7800a06a436b5da4f25b4438c624479d2"
+    }
+  ],
+  "behavior": {
+    "home": "two-row moving project marquee",
+    "home_card_click": "/gallery",
+    "home_cta_click": "/gallery",
+    "project_detail_flow": "/gallery -> /gallery/:projectId"
+  },
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ],
+  "validation": {
+    "typescript_transpile": "PASS",
+    "powershell_array_trailing_comma_issue": "Not applicable; script uses no arrays"
+  }
+}

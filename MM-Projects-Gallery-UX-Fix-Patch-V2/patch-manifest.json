@@ -1,0 +1,211 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/types/index.ts",
+      "sha256": "19eb39b6b77cfb10912a4cd9df4289f3013f889b099415f9b4144ccdc8ebdbcb"
+    },
+    {
+      "path": "src/data/projects.ts",
+      "sha256": "b021a5181fc9fbcbaac7e2b4b82f340495f06237660f7b2f894dd1efb3f817ec"
+    },
+    {
+      "path": "src/components/ui/Icon.tsx",
+      "sha256": "d2e40f4861e662aab84674e99bdba24e4cad6e5cf476e1d0e2a2e5b2bea71231"
+    },
+    {
+      "path": "src/sections/Gallery.tsx",
+      "sha256": "138aa62c36c0cbb8a32d6b8825ea2fd3e6bd57d1768158cd0e2d47ffb005a264"
+    },
+    {
+      "path": "src/pages/GalleryPage.tsx",
+      "sha256": "9120baf34d09be52d8d1dbd8e029e8e977e8e6e7921dd285e4746aa4004915ec"
+    },
+    {
+      "path": "src/pages/ProjectDetailsPage.tsx",
+      "sha256": "7a9eda65f7c1687a49a02e14146b1589f9cbbebaefecc386275f9d0d5b41a03a"
+    },
+    {
+      "path": "src/pages/Home.tsx",
+      "sha256": "54ce96c4eeeae733a2deca3886205a1695eed4a885613e9e775934ea5a81ab8c"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "9952dff4855b8dc373a45a458dc95e4422ee439d0f816d0044d489e81b7e2ebe"
+    },
+    {
+      "path": "src/data/navigation.ts",
+      "sha256": "1884722fcf08b0f2f31db271dc66e4c5273b89eb30a019ccf4cdec47121565c1"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "bf81d41da697f358eec916e43e11fd3ba225df9855ab61edcb30414fb473693a"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "ea008e69f357c07cccc5cdc98c55f3a312b8f967481120ac7fb06f3f43db1f23"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "sha256": "51184966d698e35dfd4cee3eaa64713a0e30ecca67f353727820c5c6a9395855"
+    },
+    {
+      "path": "public/projects/altameer-arabian-sales-office-1.webp",
+      "sha256": "e51ec0552c41f9bbf1709a4041e45b730dc4d39480f243645890388c434610e5"
+    },
+    {
+      "path": "public/projects/altameer-arabian-sales-office-2.webp",
+      "sha256": "0fa1556d01d889538e7c93ebe60d9afe1aa39157170bc920aa4480468c0fce26"
+    },
+    {
+      "path": "public/projects/altameer-arabian-sales-office-3.webp",
+      "sha256": "0be1080b5a55af85f8bca9c901b6738e03a8cac898614a3aa58a340ba58a3b08"
+    },
+    {
+      "path": "public/projects/altameer-arabian-sales-office-4.webp",
+      "sha256": "87569cb5a603fb4daef9750e28b6c17f46f421cdc1791c08bf12a003563e81dd"
+    },
+    {
+      "path": "public/projects/hadaek-el-asema-1.webp",
+      "sha256": "6a2f7dba466c8ca88879bf8a62990059df63195e20fe14e817fb1beffede4eb0"
+    },
+    {
+      "path": "public/projects/hadaek-el-asema-2.webp",
+      "sha256": "4b03cb047fb3ec7ee8ccafb5794c61de7ad17f52abd2405ac9fbda2c2725f54c"
+    },
+    {
+      "path": "public/projects/hadaek-el-asema-3.webp",
+      "sha256": "56eb8b91eaf2b4ebea67e5bd5c23f77dce959c1fdddb2a3afa32678f51450bf3"
+    },
+    {
+      "path": "public/projects/hadaek-el-asema-4.webp",
+      "sha256": "3794f60550535702bf6549b8c6295163c5cb73d2619ec8704b5e9841f76177aa"
+    },
+    {
+      "path": "public/projects/luxor-azhar-institute-1.webp",
+      "sha256": "9d9b3d85d22dbeab56a5d1d6b4a5766bb799d31c56a8cc59740be3270ece0ace"
+    },
+    {
+      "path": "public/projects/luxor-azhar-institute-2.webp",
+      "sha256": "476a0849e8e641fd9594dd6bd104a70981b4781680e0cc4251e40aea91bc5472"
+    },
+    {
+      "path": "public/projects/luxor-azhar-institute-3.webp",
+      "sha256": "a181d96b6b4b4426f120ce36e3ed91801a66deaf2640676238f88401498d4397"
+    },
+    {
+      "path": "public/projects/luxor-azhar-institute-4.webp",
+      "sha256": "a5560f0d1640256e889d0a19e60b362f68f70a46f371af6cb87bbfb9d799d3a7"
+    },
+    {
+      "path": "public/projects/mansoura-azhar-institute-1.webp",
+      "sha256": "4b403fd285cc96224ba182ef45fc7b974462178050c4abbfaf81299d170aee5b"
+    },
+    {
+      "path": "public/projects/mansoura-azhar-institute-2.webp",
+      "sha256": "177d2e19d1e8d6427eecb93e280bdf3364c1ead58b507480adb02480adc1ba60"
+    },
+    {
+      "path": "public/projects/mansoura-azhar-institute-3.webp",
+      "sha256": "1ecb61b47fac905af389b2cd55ab7be3eeb4e55e0273497748b9ec877943da7a"
+    },
+    {
+      "path": "public/projects/mansoura-azhar-institute-4.webp",
+      "sha256": "7b8304d2add4ef1e04553b6a4ff401f937cfd8528123584d4fb44db681e5bde8"
+    },
+    {
+      "path": "public/projects/mmk-pack-factory-1.webp",
+      "sha256": "5c7d69444f5e6f9e8098c4cfe15581a8484dc8e36f71152c93130625f822f3cc"
+    },
+    {
+      "path": "public/projects/mmk-pack-factory-2.webp",
+      "sha256": "ff1de403e551d3521ab4d329d60503e5dabc8867a803c87a67671316c108bf40"
+    },
+    {
+      "path": "public/projects/mmk-pack-factory-3.webp",
+      "sha256": "f138eb764f89426a143f2ebea10021a82ea310d8edc920fff67b9394733949b7"
+    },
+    {
+      "path": "public/projects/palm-hills-factory-1.webp",
+      "sha256": "60b5d8af8862b5e265d4738bc6c6af73652668ba0616822f8fcf3d12e4379f57"
+    },
+    {
+      "path": "public/projects/palm-hills-factory-2.webp",
+      "sha256": "6147f820a3ced9e02253efb38d9bbb3760e2c07334b690eea41e317fccceb19c"
+    },
+    {
+      "path": "public/projects/palm-hills-factory-3.webp",
+      "sha256": "994a63a92e5a14fb910a7d14f8d2d46b61f06a5b5bf631a00c795518eb02df9c"
+    },
+    {
+      "path": "public/projects/palm-hills-factory-4.webp",
+      "sha256": "1a8ddb4a1467ae714bc34d816a2d1b677d3259cbed0b07893efbc32dbde2310b"
+    },
+    {
+      "path": "public/projects/rivan-compound-1.webp",
+      "sha256": "69921e7559fa1085bfc71e0a68ec45680093ddca1e0b59b6619015b48662a9ce"
+    },
+    {
+      "path": "public/projects/rivan-compound-2.webp",
+      "sha256": "f27c6b94650b0320263fa6b9a95fa9314e25eea50543ce86234011bcb715ff1d"
+    },
+    {
+      "path": "public/projects/rivan-compound-3.webp",
+      "sha256": "a41c23591ca602847048323ce8f7ab5ea02caea5b356e87cb20c4cc71ca1376e"
+    },
+    {
+      "path": "public/projects/rivan-compound-4.webp",
+      "sha256": "4dd5c51c84e082942274615bc943593b19ea6a39bbea98ca7376910bfc7e1839"
+    },
+    {
+      "path": "public/projects/rivan-square-1.webp",
+      "sha256": "88296ca8071a35fd0f23733086716e3a5cf8c61f8d14a0abdb97f381907ad7fd"
+    },
+    {
+      "path": "public/projects/rivan-square-2.webp",
+      "sha256": "b60e560ba6550c22fbf0bfd6f6b0dc8991d54ce638ca06c2842c8019eaa687a7"
+    },
+    {
+      "path": "public/projects/rivan-square-3.webp",
+      "sha256": "dd8f4adea65271f87f29edec44230b0a91cdf03195dd9792e0b8dc9cd86e9a72"
+    },
+    {
+      "path": "public/projects/rivan-square-4.webp",
+      "sha256": "d6f5cc2def8d75a4d72cbb8f50341ecbecc03b7c52fffcc670a5253546da3e4b"
+    },
+    {
+      "path": "public/projects/rivan-tower-1.webp",
+      "sha256": "eab9a6517d1318a0c800a0743843eaa0af02e0c52a2ae2a8327dbf6751d1d09a"
+    },
+    {
+      "path": "public/projects/rivan-tower-2.webp",
+      "sha256": "eac9e32b484928292a2f065f2b60ba3429c0483e778b5c699faa628bd409683a"
+    },
+    {
+      "path": "public/projects/rivan-tower-3.webp",
+      "sha256": "37708e4ecea24bfdc0dcebb4ec2fd8f28e182ab62daf10fb0ccebf58c4859e84"
+    },
+    {
+      "path": "public/projects/rivan-tower-4.webp",
+      "sha256": "1a75628e8b751a6f519a3314285f79abbf69259e3ffa793181cc996fdc9fa240"
+    }
+  ],
+  "deleted_if_present": [
+    "src/pages/ProjectsPage.tsx",
+    "src/sections/FeaturedProjects.tsx",
+    "public/projects/building-site-works.webp",
+    "public/projects/mmk-pack-factory.webp"
+  ],
+  "projects": 9,
+  "local_project_images": 35,
+  "flow": "Home -> /gallery -> /gallery/:projectId",
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ],
+  "validation": {
+    "tsx_typescript_transpile": "PASS",
+    "json_parse": "PASS",
+    "local_project_image_references": "PASS"
+  }
+}

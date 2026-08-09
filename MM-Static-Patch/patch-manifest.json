@@ -1,0 +1,78 @@
+{
+  "updated_or_added": [
+    {
+      "path": ".gitignore",
+      "sha256": "ee17fa15ca56eac46ef4b38b602c65d785f56d20f670e03adcaed24ca7090061"
+    },
+    {
+      "path": "README.md",
+      "sha256": "90b6f5b28f34eace1bae49f65e780d149c232950fb5fdf7c6219d532d2b87989"
+    },
+    {
+      "path": "STATIC_ARCHITECTURE.md",
+      "sha256": "bd048a518a2a35e9b9767e4cfdaf68007822961531ef96b819ac4532af0713eb"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "e9afcff94ab559adde57afd4f7da3a4a311569bdd311c5e710b32360c653ee50"
+    },
+    {
+      "path": "package.json",
+      "sha256": "ba2816b3b78ba9b3795efa556d56e18bb152be7b305beb5e8739e522dd90a085"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "36c6dae66003b81339742e446614f0cc43b3d622ec2aaf028183d7347a33e11b"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "315ec21726b0704d9876e72fb232aa3a6e0a9f5dd70c751f2f48f259664dcc48"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "de991bc86c93a21aca249d0e7418ac055f2e38c54d0500ab22f4519e743960b3"
+    },
+    {
+      "path": "src/pages/CertificatesPage.tsx",
+      "sha256": "70adeea5df61ec8ae18db60390ea56c776cb1525ce700e184b3d4e83e2ae16af"
+    },
+    {
+      "path": "src/sections/Certificates.tsx",
+      "sha256": "2787444cbda3ebddb273aa34b65d0ee2ef08976bb3737dcacd4b1dffdd5b8653"
+    },
+    {
+      "path": "src/sections/FeaturedProjects.tsx",
+      "sha256": "11c24e45cf1e11da5518b40b67e5253e4b7f1db8c22d7711349b5cbf38ea161d"
+    },
+    {
+      "path": "src/sections/LatestNews.tsx",
+      "sha256": "6c5516aff7a51fa1c46cc6b0b520952549c0dff56e3aa19bf7d8848218962d03"
+    },
+    {
+      "path": "src/sections/Services.tsx",
+      "sha256": "2dc4fdcf86d8f11dc9626ba43ad51520aeac8fdc4919b7098bbabbde71a8cf6a"
+    }
+  ],
+  "deleted": [
+    "src/api/axios.ts",
+    "src/components/admin/AdminLayout.tsx",
+    "src/components/admin/AdminTable.tsx",
+    "src/components/admin/NewsForm.tsx",
+    "src/components/admin/ProjectForm.tsx",
+    "src/components/admin/ProtectedRoute.tsx",
+    "src/context/AuthContext.tsx",
+    "src/hooks/useAuth.ts",
+    "src/pages/admin/AdminCertificates.tsx",
+    "src/pages/admin/AdminDashboard.tsx",
+    "src/pages/admin/AdminLogin.tsx",
+    "src/pages/admin/AdminNews.tsx",
+    "src/pages/admin/AdminServices.tsx",
+    "src/pages/admin/ProjectsManager.tsx",
+    "src/utils/compressImage.ts"
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ]
+}

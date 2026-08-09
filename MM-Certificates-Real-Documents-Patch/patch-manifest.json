@@ -1,0 +1,69 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/data/certificates.ts",
+      "sha256": "be2a0a6f0178faa8e15bb1026e569a47e1b11b4e38e29e6d35baaa4595ecefa3"
+    },
+    {
+      "path": "src/types/index.ts",
+      "sha256": "58e0f43364996fedddcaadedc6efd284397fe6ea39c511cf5f2203a713d8893e"
+    },
+    {
+      "path": "src/components/ui/CertificateCard.tsx",
+      "sha256": "66975886d6bf91653d9551d0288dc70da301afb7cff98ec490105377e158ba1f"
+    },
+    {
+      "path": "src/components/ui/CertificateModal.tsx",
+      "sha256": "410be7b662ac277dcd717fc01a9d27698f03ffb67a906e42988cad94933e9534"
+    },
+    {
+      "path": "src/pages/CertificatesPage.tsx",
+      "sha256": "3638f4b0a5aa4b32a688b8fef22cc653bb35e9f93a4c69ed19fb699fd51dd78f"
+    },
+    {
+      "path": "src/sections/Certificates.tsx",
+      "sha256": "f66d5b19ed1b1f9358c7c9b9b71e56442b5b26e210f3c3e1b7dd2522e5dac20a"
+    },
+    {
+      "path": "public/certificates/tax-card.webp",
+      "sha256": "0d023ea4b59c815c6ed4d2cfad642fc2864aabc406dae737fd65c6a30fef05a7"
+    },
+    {
+      "path": "public/certificates/vat-registration.webp",
+      "sha256": "a5752866c5306d7435ba43085dc4299dc0536f8af2458bcb5cdc54414a8fb0b5"
+    },
+    {
+      "path": "public/certificates/federation-membership.webp",
+      "sha256": "ec96c273e6f243ad9059c2f6a01efb12734d6386ddf1fc49e13bc06a0eb95505"
+    },
+    {
+      "path": "public/certificates/federation-classification.webp",
+      "sha256": "b82357296338546356e99f966c50e5246847731e521bbf9a4c3668b471bbb248"
+    },
+    {
+      "path": "public/certificates/commercial-register-1.webp",
+      "sha256": "d8b022ff2e4887446e7fafcfcee20c1f4666a2b6f759c5934f413adf5a6da4c0"
+    },
+    {
+      "path": "public/certificates/commercial-register-2.webp",
+      "sha256": "9a0bc0db3271880685b8cfec7acc81449df21a528d56c15d954088cdfcd19596"
+    },
+    {
+      "path": "public/certificates/commercial-register-3.webp",
+      "sha256": "7f601e9596399dccf2ca0e2f235cc473712b06e00069bed89f1fbb78b82dedcb"
+    },
+    {
+      "path": "public/certificates/partnership-contract-1.webp",
+      "sha256": "d171610db378878cccaf01ebbb25d3859fe4f096645176a6388ca6b5363c0173"
+    },
+    {
+      "path": "public/certificates/partnership-contract-2.webp",
+      "sha256": "5feeb5c51884c5fe552e95bc04e136dd51e8ffbfd8bdc6e13e0d2bdfdb54a6b0"
+    }
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/App.tsx",
+      "sha256": "b860e388ccad22e12af81896ad71c428fdd888aabd816578c60a3e2fbd365bb3"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "sha256": "1808f5e8f6c9edbf421e7bfa2f21fcb2404d9cf88cb8b5eda6e85f82c82265c8"
+    },
+    {
+      "path": "src/components/layout/Footer.tsx",
+      "sha256": "6035abe111d03df93efb1a1a9cb329e7eb07bc93d8c6abcf599c27f97352c9f8"
+    },
+    {
+      "path": "src/data/navigation.ts",
+      "sha256": "3fe63a33c9959fa71d39d65c38058e8d9ca42207f3931313df352a49e468bc01"
+    },
+    {
+      "path": "src/data/organization.ts",
+      "sha256": "d515c9bc1dc2386e679aa9602295f3f1b5616f865b765615117538864de1d8e5"
+    },
+    {
+      "path": "src/pages/OrganizationPage.tsx",
+      "sha256": "8d3f80e9138c84ff36761eedb721bb0e57f503ac34370fd845a28c27d2585bf3"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "14f102862be1b886cb3ff7e14f9161f1cc05948e69b16be8653c12fe7573d97f"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "ee95ff3bf6dc080a7d4dd42dfd176cb23095fba485fb5d5d08dd33dfd285d87e"
+    }
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ]
+}

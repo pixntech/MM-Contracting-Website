@@ -1,0 +1,466 @@
+{
+  "site": {
+    "title": "MM Contracting & Supplying Co. - Cairo, Egypt",
+    "description": "MM Contracting & Supplying Co., based in Sheraton Heliopolis, Cairo, Egypt.",
+    "keywords": "MM Contracting, MM Contracting & Supplying, contracting, supplying, construction, Cairo, Egypt, Sheraton Heliopolis",
+    "ogTitle": "MM Contracting & Supplying Co. - Cairo, Egypt",
+    "ogDescription": "MM Contracting & Supplying Co., based in Sheraton Heliopolis, Cairo, Egypt.",
+    "twitterTitle": "MM Contracting & Supplying Co. - Cairo, Egypt",
+    "twitterDescription": "MM Contracting & Supplying Co., based in Sheraton Heliopolis, Cairo, Egypt."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "industries": "Industries",
+    "news": "News",
+    "certificates": "Certificates",
+    "partners": "Partners",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "header": {
+    "ariaLabel": "MM Contracting & Supplying Co. Home",
+    "altLogo": "MM Contracting & Supplying Co.",
+    "navAria": "Main navigation",
+    "mobileNavAria": "Mobile navigation",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "getInTouch": "Get in Touch"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactUs": "Contact Us",
+    "copyright": "All copyrights © reserved - Powered by PixnTech",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "linkedinAria": "LinkedIn",
+    "twitterAria": "Twitter",
+    "facebookAria": "Facebook",
+    "instagramAria": "Instagram"
+  },
+  "hero": {
+    "tagline": "MM Contracting & Supplying Co.",
+    "title": "Contracting Built on",
+    "titleHighlight": "Commitment & Experience",
+    "description": "A contracting and supplying company headquartered in Sheraton Heliopolis, Cairo, serving construction and engineering requirements across Egypt.",
+    "ctaProjects": "View Our Projects",
+    "ctaContact": "Contact Us",
+    "scrollLabel": "Scroll",
+    "scrollAria": "Scroll to learn more"
+  },
+  "about": {
+    "subtitle": "About Us",
+    "title": "MM Contracting & Supplying Co.",
+    "description1": "MM Contracting & Supplying Co. operates from its head office in Sheraton Heliopolis, Cairo, Egypt.",
+    "description2": "The company is registered in Egypt and holds membership in the Egyptian Federation for Construction and Building Contractors. The official company details below are taken directly from the company profile.",
+    "headOffice": "Head Office",
+    "commercialRegister": "Commercial Register No.",
+    "taxCard": "Tax Card / ID No.",
+    "federationMembership": "Federation Membership No.",
+    "membershipYear": "Membership Year"
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Comprehensive Construction & Engineering Solutions",
+    "description": "From concept to completion, we deliver integrated solutions across the full spectrum of construction and engineering disciplines.",
+    "learnMore": "Learn More",
+    "infrastructure": {
+      "title": "Infrastructure Development",
+      "description": "Design and construction of critical infrastructure including highways, bridges, utilities, and transportation networks.",
+      "features": [
+        "Highways & Roads",
+        "Bridge Construction",
+        "Utility Networks",
+        "Tunneling",
+        "Railway Systems",
+        "Ports & Harbors"
+      ]
+    },
+    "industrial": {
+      "title": "Industrial Projects",
+      "description": "Specialized industrial facilities designed for efficiency, safety, and compliance with international standards.",
+      "features": [
+        "Manufacturing Plants",
+        "Warehouses & Logistics",
+        "Power Plants",
+        "Oil & Gas Facilities",
+        "Chemical Plants",
+        "Processing Facilities"
+      ]
+    },
+    "designBuild": {
+      "title": "Design & Build",
+      "description": "Integrated design-build solutions that streamline project delivery through single-point accountability.",
+      "features": [
+        "Architectural Design",
+        "Structural Engineering",
+        "MEP Engineering",
+        "Interior Design",
+        "Sustainable Design",
+        "BIM Services"
+      ]
+    }
+  },
+  "featuredProjects": {
+    "subtitle": "Selected Projects",
+    "title": "Building Projects Delivered by MM Contracting",
+    "description": "A selection of industrial, educational, residential, administrative and commercial building projects listed in the company profile.",
+    "completed": "Completed",
+    "ongoing": "Ongoing",
+    "viewAll": "View Project Gallery",
+    "profileLabel": "Company Profile",
+    "profileStatement": "MM Contracting has successfully executed building works across multiple sectors, working as both a main contractor and a subcontractor.",
+    "siteImageAlt": "MM Contracting building construction works at night",
+    "siteImageCaption": "Building construction works",
+    "factoryImageAlt": "MMK Pack Factory for Cartons industrial facility",
+    "factoryImageCaption": "MMK Pack Factory for Cartons",
+    "portfolioLabel": "Project Portfolio",
+    "portfolioSummary": "Projects listed in the supplied company profile across four building sectors.",
+    "projectsCount": "projects",
+    "categories": {
+      "industrial": "Industrial Buildings",
+      "educational": "Educational Buildings",
+      "residential": "Residential Buildings",
+      "commercial": "Commercial & Administrative Buildings"
+    }
+  },
+  "projects": {
+    "mmkPackFactory": {
+      "title": "MMK Pack Factory for Cartons"
+    },
+    "palmHillsDatesFactory": {
+      "title": "Palm Hills Factory for Dates"
+    },
+    "mansouraAzharInstitute": {
+      "title": "Mansoura Azhar Institute"
+    },
+    "luxorAzharInstitute": {
+      "title": "Luxor Azhar Institute"
+    },
+    "hadaekElAsema": {
+      "title": "Hada'ek El Asema (16 Buildings)"
+    },
+    "rivanCompound": {
+      "title": "Rivan Compound"
+    },
+    "rivanTower": {
+      "title": "Rivan Tower"
+    },
+    "rivanSquare": {
+      "title": "Rivan Square"
+    },
+    "altameerArabianSalesOffice": {
+      "title": "AlTameer Arabian Sales Office"
+    }
+  },
+  "whyChooseUs": {
+    "subtitle": "Why Choose Us",
+    "title": "What Sets MM Contracting Apart",
+    "description": "Our commitment to excellence, safety, and innovation makes us the preferred partner for the world's most demanding construction projects.",
+    "expertise": {
+      "title": "Unmatched Expertise",
+      "description": "With over 27 years of experience and 1,500+ successful projects, our team brings unparalleled knowledge to every undertaking."
+    },
+    "quality": {
+      "title": "Commitment to Quality",
+      "description": "We adhere to the highest international quality standards, with rigorous quality control processes at every project phase."
+    },
+    "safety": {
+      "title": "Safety First Culture",
+      "description": "Our industry-leading safety protocols and zero-incident approach ensure every project is delivered without compromise."
+    },
+    "innovation": {
+      "title": "Innovation & Technology",
+      "description": "We leverage cutting-edge construction technology, BIM, and sustainable practices to deliver superior results."
+    },
+    "delivery": {
+      "title": "On-Time Delivery",
+      "description": "Our proven project management methodology ensures we consistently deliver projects on schedule and within budget."
+    },
+    "global": {
+      "title": "Global Reach",
+      "description": "With operations across 25+ countries, we have the capability to execute projects of any scale, anywhere in the world."
+    }
+  },
+  "statistics": {
+    "years": "Years of Excellence",
+    "projects": "Projects Delivered",
+    "professionals": "Skilled Professionals",
+    "countries": "Countries Worldwide"
+  },
+  "industries": {
+    "subtitle": "Industries",
+    "title": "Serving Critical Sectors Worldwide",
+    "description": "Our expertise spans multiple industries, allowing us to deliver specialized solutions for the most demanding environments.",
+    "oilGas": {
+      "title": "Oil & Gas",
+      "description": "Full-spectrum EPC services for upstream, midstream, and downstream oil and gas facilities, including refineries, pipelines, and processing plants."
+    },
+    "powerEnergy": {
+      "title": "Power & Energy",
+      "description": "Design and construction of power generation facilities including thermal, solar, wind, and nuclear power plants with grid integration."
+    },
+    "transportation": {
+      "title": "Transportation",
+      "description": "Comprehensive transportation infrastructure solutions including highways, railways, airports, seaports, and mass transit systems."
+    },
+    "water": {
+      "title": "Water & Environment",
+      "description": "Water treatment facilities, desalination plants, dam construction, and environmental remediation projects for sustainable water management."
+    },
+    "mining": {
+      "title": "Mining & Metals",
+      "description": "Development of mining infrastructure, mineral processing facilities, smelters, and material handling systems for the mining industry."
+    },
+    "healthcare": {
+      "title": "Healthcare Facilities",
+      "description": "Design and construction of hospitals, medical centers, research laboratories, and healthcare campuses meeting international accreditation standards."
+    }
+  },
+  "partners": {
+    "subtitle": "Strategic Partners",
+    "title": "Trusted Collaborations",
+    "description": "We collaborate with the industry's leading organizations to deliver engineering excellence across every project.",
+    "pageTitle": "Our Trusted Partners",
+    "pageSubtitle": "Partners",
+    "all": "All",
+    "strategicPartner": "Strategic Partner",
+    "technologyPartner": "Technology Partner",
+    "designPartner": "Design Partner",
+    "supplyPartner": "Supply Partner",
+    "jointVenturePartner": "Joint Venture Partner",
+    "consultingPartner": "Consulting Partner",
+    "sustainabilityPartner": "Sustainability Partner",
+    "subcontractorPartner": "Subcontractor Partner",
+    "visitWebsite": "Website",
+    "noPartnersFound": "No partners found for this category.",
+    "partnerAria": "View {{name}} profile",
+    "visitAria": "Visit {{name}} website"
+  },
+  "clients": {
+    "subtitle": "Our Clients",
+    "title": "Trusted by Industry Leaders",
+    "description": "We are proud to partner with the world's leading energy, infrastructure, and development organizations.",
+    "testimonialsSubtitle": "Testimonials",
+    "testimonialsTitle": "What Our Clients Say"
+  },
+  "news": {
+    "subtitle": "Latest News",
+    "title": "Staying at the Forefront of the Industry",
+    "description": "Explore our latest projects, achievements, and corporate updates.",
+    "viewAll": "View All News",
+    "items": {
+      "news1": {
+        "title": "MM Contracting Awarded $1.2B Gulf Coastal Highway Project",
+        "excerpt": "The company secures its largest infrastructure contract to date, spanning 180 kilometers along the eastern coast.",
+        "category": "Projects"
+      },
+      "news2": {
+        "title": "Green City Sustainable Community Reaches Construction Milestone",
+        "excerpt": "Phase one of the 5,000-unit sustainable smart city development is now 60% complete, ahead of schedule.",
+        "category": "Sustainability"
+      },
+      "news3": {
+        "title": "MM Contracting Achieves ISO 45001:2025 Certification",
+        "excerpt": "The company demonstrates its commitment to occupational health and safety with the latest international certification.",
+        "category": "Achievements"
+      },
+      "news4": {
+        "title": "Grand Horizon Hotel Wins International Architecture Award",
+        "excerpt": "The recently completed luxury resort in Doha receives recognition for its innovative design and sustainable features.",
+        "category": "Awards"
+      },
+      "news5": {
+        "title": "MM Contracting Expands Operations into Southeast Asia",
+        "excerpt": "New regional headquarters in Singapore marks the company's strategic expansion into the rapidly growing ASEAN market.",
+        "category": "Corporate"
+      },
+      "news6": {
+        "title": "Innovation in Construction: MM Contracting Launches BIM Center",
+        "excerpt": "A state-of-the-art Building Information Modeling center to drive digital transformation across all projects.",
+        "category": "Innovation"
+      }
+    }
+  },
+  "certificates": {
+    "subtitle": "Certificates & Accreditations",
+    "title": "Commitment to Global Standards",
+    "description": "Our certifications reflect our unwavering dedication to quality, safety, environmental responsibility, and engineering excellence.",
+    "pageSubtitle": "Quality & Compliance",
+    "pageTitle": "Certificates & Accreditations",
+    "pageDescription": "Every MM Contracting project is backed by internationally recognized certifications that validate our commitment to the highest standards of quality, safety, and environmental responsibility.",
+    "searchPlaceholder": "Search certificates...",
+    "searchAria": "Search certificates",
+    "noResults": "No certificates match your search.",
+    "statusActive": "Active",
+    "statusExpiring": "Expiring",
+    "statusExpired": "Expired",
+    "issueDate": "Issue Date",
+    "expiryDate": "Expiry Date",
+    "status": "Status",
+    "category": "Category",
+    "viewCertificate": "View Certificate",
+    "previous": "Previous",
+    "next": "Next",
+    "closeModal": "Close modal",
+    "prevCertificate": "Previous certificate",
+    "nextCertificate": "Next certificate",
+    "prevCertificateAria": "Previous certificate",
+    "nextCertificateAria": "Next certificate",
+    "gotoCertificate": "Go to certificate {{number}}",
+    "carouselAria": "Certificates and Accreditations",
+    "issued": "Issued: {{date}}",
+    "expires": "Expires: {{date}}",
+    "viewDetails": "View details for {{title}}",
+    "categories": {
+      "all": "All",
+      "iso": "ISO",
+      "safety": "Safety",
+      "engineering": "Engineering",
+      "construction": "Construction",
+      "quality": "Quality",
+      "environmental": "Environmental",
+      "other": "Other"
+    }
+  },
+  "gallery": {
+    "subtitle": "Project Gallery",
+    "title": "Real Project Images",
+    "description": "Project images supplied in the official MM Contracting company profile.",
+    "pageTitle": "MM Contracting Project Gallery",
+    "noImages": "No images found in this category.",
+    "viewFull": "View Full Gallery",
+    "categories": {
+      "all": "All Projects",
+      "construction": "Construction",
+      "industrial": "Industrial"
+    },
+    "items": {
+      "buildingSiteWorks": {
+        "title": "Building Construction Works",
+        "alt": "MM Contracting construction works at night with concrete pumping equipment"
+      },
+      "mmkPackFactory": {
+        "title": "MMK Pack Factory for Cartons",
+        "alt": "Industrial production facility at MMK Pack Factory for Cartons"
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Contact Us",
+    "title": "Get in Touch with MM Contracting",
+    "description": "Contact the company directly or open the office location in Google Maps for turn-by-turn directions.",
+    "officeAddress": "Office Address",
+    "phone": "Telephone",
+    "fax": "Fax",
+    "email": "Email",
+    "companyDetails": "Official Company Details",
+    "commercialRegister": "Commercial Register No.",
+    "taxCard": "Tax Card / ID No.",
+    "federationMembership": "Egyptian Federation Membership No.",
+    "membershipYear": "Membership Year",
+    "getDirections": "Get Directions",
+    "callUs": "Call Us"
+  },
+  "company": {
+    "name": "MM Contracting & Supplying Co.",
+    "shortName": "MM",
+    "tagline": "Contracting & Supplying Co.",
+    "description": "MM Contracting & Supplying Co. is based in Sheraton Heliopolis, Cairo, Egypt."
+  },
+  "visionMission": {
+    "visionTitle": "Our Vision",
+    "visionDescription": "To be the most trusted and respected engineering and construction company globally, recognized for transforming communities through innovative, sustainable, and exceptional infrastructure solutions that stand the test of time.",
+    "missionTitle": "Our Mission",
+    "missionDescription": "To deliver engineering and construction excellence through unwavering commitment to quality, safety, and innovation. We strive to exceed client expectations, empower our people, and contribute to sustainable development in every community we serve."
+  },
+  "history": {
+    "subtitle": "Our Journey",
+    "title": "A Legacy of Engineering Excellence",
+    "description": "From a small team of 20 engineers to a global workforce of 12,000+ professionals — explore the milestones that shaped MM Contracting.",
+    "milestones": {
+      "founded": {
+        "title": "Foundation of MM Contracting",
+        "description": "MM Contracting was established with a vision to become a leading force in the construction industry. Starting with a small team of 20 engineers, the company undertook its first residential project in Dubai.",
+        "achievement": "Founded"
+      },
+      "firstMajor": {
+        "title": "First Major Infrastructure Project",
+        "description": "Awarded our first large-scale infrastructure contract — a 45 km highway project connecting key economic zones. This marked MM Contracting's entry into the infrastructure sector and established our reputation for delivery excellence.",
+        "achievement": "45 KM",
+        "highlight": "First infrastructure contract awarded in the northern region"
+      },
+      "international": {
+        "title": "International Expansion",
+        "description": "Opened regional offices in Saudi Arabia and Qatar, expanding operations beyond the UAE. Within two years, we secured contracts worth $500M across the GCC region, establishing a truly international footprint.",
+        "achievement": "3 Countries"
+      },
+      "landmark": {
+        "title": "Landmark Tower Completion",
+        "description": "Completed our first super-tall building — a 65-story commercial tower in the heart of the business district. This project showcased our capability to deliver complex high-rise structures to international standards.",
+        "achievement": "65 Stories"
+      },
+      "diversification": {
+        "title": "Diversification into Industrial Sector",
+        "description": "Entered the industrial construction sector with a $1.2B petrochemical plant contract. This strategic move diversified our portfolio, reduced market risk, and positioned us as a key player in the energy sector.",
+        "achievement": "$1.2B",
+        "highlight": "Largest single contract in company history"
+      },
+      "workforce": {
+        "title": "Workforce Expansion to 10,000+",
+        "description": "Our workforce grew to over 10,000 professionals across 15 countries. We invested heavily in training programs, safety protocols, and state-of-the-art construction technology to support our expanding operations.",
+        "achievement": "10,000+"
+      },
+      "sustainability": {
+        "title": "Sustainability & Innovation Leadership",
+        "description": "Launched our Green Building Division and achieved ISO 14001 certification. We completed our first net-zero carbon project and committed to sustainable construction practices across all operations globally.",
+        "achievement": "Net Zero"
+      },
+      "present": {
+        "title": "Global Engineering Powerhouse",
+        "description": "Today, MM Contracting stands as one of the region's most respected engineering and construction companies with 12,000+ employees, 1,500+ projects delivered, and operations across 25+ countries worldwide.",
+        "achievement": "1,500+ Projects"
+      }
+    }
+  },
+  "companyHistory": {
+    "yearsOfExperience": "Years of Experience",
+    "countries": "Countries",
+    "projectsDelivered": "Projects Delivered"
+  },
+  "imageLightbox": {
+    "close": "Close lightbox",
+    "previous": "Previous image",
+    "next": "Next image",
+    "ariaLabel": "Image preview"
+  },
+  "languageSwitcher": {
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved. Let's get you back on track.",
+    "cta": "Back to Homepage"
+  },
+  "common": {
+    "loading": "Loading",
+    "ariaCurrentPage": "Current page",
+    "stories": "Stories",
+    "height": "Height",
+    "employees": "Employees",
+    "projects": "Projects",
+    "professionals": "Professionals",
+    "cancel": "Cancel"
+  },
+  "map": {
+    "title": "MM Contracting office location",
+    "officeLabel": "Head Office",
+    "getDirections": "Open in Google Maps",
+    "clickHint": "Click the map or button to start navigation.",
+    "openDirectionsAria": "Open MM Contracting office directions in Google Maps"
+  }
+}

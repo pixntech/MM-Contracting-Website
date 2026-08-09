@@ -1,0 +1,44 @@
+{
+  "updated_or_added": [
+    {
+      "path": "public/projects/building-site-works.webp",
+      "sha256": "89cce6af5b89f4735ca6592c89bddb2f5c4b536fca29ea759ae9426f2f279a11"
+    },
+    {
+      "path": "public/projects/mmk-pack-factory.webp",
+      "sha256": "ce6e522171c0f96f2400f200602502161d8205c54f4afa4b82200bf6ef7e226e"
+    },
+    {
+      "path": "src/data/gallery.ts",
+      "sha256": "f4067acdf46ce5b5a85694d15414e88aa47e1e24a18603ff70c7248f417e7fad"
+    },
+    {
+      "path": "src/data/projects.ts",
+      "sha256": "f18ac7175c9cc98b4b8b3e4e3be5ae31d17f1630f6c23a4d62577ab536c7ff6a"
+    },
+    {
+      "path": "src/pages/GalleryPage.tsx",
+      "sha256": "144b243228be47545f0101bcad64c1d9ac44aa4cc285e3134f9b60a4f924d72b"
+    },
+    {
+      "path": "src/sections/FeaturedProjects.tsx",
+      "sha256": "e872824f8ad79335ef2a4f0f13ece53da20f68afb68156df27111f98011653db"
+    },
+    {
+      "path": "src/sections/Gallery.tsx",
+      "sha256": "a614b1d094acae0e517bbbe1184f38afb175a2c263a27ee9b8a9e9cdf4545beb"
+    }
+  ],
+  "source_edits": [
+    "src/types/index.ts (Project interface only)",
+    "src/i18n/locales/en.json (project/gallery keys only)",
+    "src/i18n/locales/ar.json (project/gallery keys only)"
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**",
+    "certificate content",
+    "contact/company content"
+  ]
+}

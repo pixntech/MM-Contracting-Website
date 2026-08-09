@@ -1,0 +1,48 @@
+{
+  "updated": [
+    {
+      "path": "package.json",
+      "sha256": "2e6cd365711563ea018e98790404a6bd9b18ea8fe55ae9dd662eacadda8305ba"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "01ce4f120c9ca471da35034820c24ee1192dc236d4ff7a2a90fe673e35abb81e"
+    },
+    {
+      "path": "src/constants/index.ts",
+      "sha256": "2cc6eb4bc7ca732599f9dd289a10aaa907302117bf80cd61294668e52a98be88"
+    },
+    {
+      "path": "src/components/layout/Footer.tsx",
+      "sha256": "1cd342dd00b08a8bc269b20c7e215ce4d868c3e55ff6a0f0aac43152e2843115"
+    },
+    {
+      "path": "src/sections/About.tsx",
+      "sha256": "3e0c0ac7230b3358611f7cb0b542df4df75e40635ed79439427d73b37c8069dd"
+    },
+    {
+      "path": "src/sections/Contact.tsx",
+      "sha256": "0fcbfa94823f74d6b9b5d39b93b6773d5fedafce704ef73c65a3938df210df1d"
+    },
+    {
+      "path": "src/sections/Map.tsx",
+      "sha256": "69fbb23dbe960182154b46521dd833822b418d5a5a536a3500cc50ea90fdd8fc"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "f2912d7f66b5c8a0b04b5d0ab7cdb2f7a4cba43bbbe059277065e438c889c454"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "556bcf61b9f92c46d39859828c2f0cffc4a20335de6ef8bf5120631a064dd8cc"
+    }
+  ],
+  "deleted": [
+    "src/components/ui/MapView.tsx"
+  ],
+  "untouched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ]
+}
