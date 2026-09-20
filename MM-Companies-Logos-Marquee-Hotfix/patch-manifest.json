@@ -1,0 +1,12 @@
+{
+  "name": "MM Companies Logos + Marquee Hotfix",
+  "version": "1.0.0",
+  "changes": [
+    "Replace Ezz Steel logo with provided image",
+    "Replace Ceramica Cleopatra logo with provided image",
+    "Rename River Cool to Mazloum in clients",
+    "Turn trusted collaborations section into name-only marquee ticker",
+    "Update partners page to list all companies as cards",
+    "Add Arabic labels support for partners"
+  ]
+}

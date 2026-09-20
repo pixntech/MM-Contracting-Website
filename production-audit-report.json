@@ -1,0 +1,349 @@
+{
+  "generatedAt": "2026-09-20T17:52:16.798Z",
+  "project": "C:\\Users\\user\\OneDrive\\Desktop\\Work\\MM-Contracting-Website-main",
+  "node": "v24.8.0",
+  "platform": "win32 x64",
+  "counts": {
+    "pass": 67,
+    "warn": 0,
+    "fail": 0
+  },
+  "status": "PASS",
+  "results": [
+    {
+      "level": "PASS",
+      "check": "Required file: package.json",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Required file: package-lock.json",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Required file: index.html",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Required file: vercel.json",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Required file: public/robots.txt",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Required file: public/sitemap.xml",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Viewport meta tag",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Meta description",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Page title",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "OG image exists",
+      "details": "/Logo.png"
+    },
+    {
+      "level": "PASS",
+      "check": "SPA rewrite to /index.html",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Security header configured: x-content-type-options",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Security header configured: referrer-policy",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Security header configured: x-frame-options",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Security header configured: permissions-policy",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Security header configured: strict-transport-security",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Placeholder scan: example.com",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Placeholder scan: Lorem ipsum",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Placeholder scan: TODO",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Placeholder scan: FIXME",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Placeholder scan: localhost URL",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Secret scan: private key",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Secret scan: AWS access key",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Secret scan: Google API key",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Secret scan: GitHub token",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Secret scan: Stripe live secret",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "No .env files inside src/public/dist",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "No insecure http:// production resources",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Arabic static translation keys complete",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "English static translation keys complete",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Referenced public assets exist",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Sitemap uses absolute HTTPS URLs",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "robots.txt has absolute HTTPS sitemap URL",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "dist/index.html exists",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "No production source maps",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "No local production file over 5 MB",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "No obvious secrets in dist bundle",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Production dependency audit",
+      "details": "0 total; no high/critical runtime vulnerabilities"
+    },
+    {
+      "level": "PASS",
+      "check": "Vite production preview starts",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/gallery",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/projects",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/certificates",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/partners",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/contact",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/mobile/route-that-does-not-exist",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/gallery",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/projects",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/certificates",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/partners",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/contact",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: ar/desktop/route-that-does-not-exist",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/gallery",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/projects",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/certificates",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/partners",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/contact",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/mobile/route-that-does-not-exist",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/gallery",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/projects",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/certificates",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/partners",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/contact",
+      "details": ""
+    },
+    {
+      "level": "PASS",
+      "check": "Runtime JS: en/desktop/route-that-does-not-exist",
+      "details": ""
+    }
+  ]
+}

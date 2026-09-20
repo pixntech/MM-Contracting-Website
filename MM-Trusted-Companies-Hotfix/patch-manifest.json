@@ -1,0 +1,13 @@
+{
+  "name": "MM Trusted Companies Hotfix",
+  "files": [
+    "src/data/clients.ts",
+    "src/sections/Clients.tsx",
+    "src/types/index.ts",
+    "src/i18n/locales/ar.json",
+    "src/i18n/locales/en.json"
+  ],
+  "touchesEnv": false,
+  "touchesNodeModules": false,
+  "touchesGit": false
+}

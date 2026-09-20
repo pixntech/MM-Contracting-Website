@@ -1,0 +1,72 @@
+PASS	Required file: package.json
+PASS	Required file: package-lock.json
+PASS	Required file: index.html
+PASS	Required file: vercel.json
+PASS	Required file: public/robots.txt
+PASS	Required file: public/sitemap.xml
+PASS	Viewport meta tag
+PASS	Meta description
+PASS	Page title
+PASS	OG image exists	/Logo.png
+PASS	SPA rewrite to /index.html
+PASS	Security header configured: x-content-type-options
+PASS	Security header configured: referrer-policy
+PASS	Security header configured: x-frame-options
+PASS	Security header configured: permissions-policy
+PASS	Security header configured: strict-transport-security
+PASS	Placeholder scan: example.com
+PASS	Placeholder scan: Lorem ipsum
+PASS	Placeholder scan: TODO
+PASS	Placeholder scan: FIXME
+PASS	Placeholder scan: localhost URL
+PASS	Secret scan: private key
+PASS	Secret scan: AWS access key
+PASS	Secret scan: Google API key
+PASS	Secret scan: GitHub token
+PASS	Secret scan: Stripe live secret
+PASS	No .env files inside src/public/dist
+PASS	No insecure http:// production resources
+PASS	Arabic static translation keys complete
+PASS	English static translation keys complete
+PASS	Referenced public assets exist
+PASS	Sitemap uses absolute HTTPS URLs
+PASS	robots.txt has absolute HTTPS sitemap URL
+PASS	dist/index.html exists
+PASS	No production source maps
+PASS	No local production file over 5 MB
+PASS	No obvious secrets in dist bundle
+PASS	Production dependency audit	0 total; no high/critical runtime vulnerabilities
+PASS	Vite production preview starts
+PASS	Runtime JS: ar/mobile/
+PASS	Runtime JS: ar/mobile/gallery
+PASS	Runtime JS: ar/mobile/projects
+PASS	Runtime JS: ar/mobile/certificates
+PASS	Runtime JS: ar/mobile/partners
+PASS	Runtime JS: ar/mobile/contact
+PASS	Runtime JS: ar/mobile/route-that-does-not-exist
+PASS	Runtime JS: ar/desktop/
+PASS	Runtime JS: ar/desktop/gallery
+PASS	Runtime JS: ar/desktop/projects
+PASS	Runtime JS: ar/desktop/certificates
+PASS	Runtime JS: ar/desktop/partners
+PASS	Runtime JS: ar/desktop/contact
+PASS	Runtime JS: ar/desktop/route-that-does-not-exist
+PASS	Runtime JS: en/mobile/
+PASS	Runtime JS: en/mobile/gallery
+PASS	Runtime JS: en/mobile/projects
+PASS	Runtime JS: en/mobile/certificates
+PASS	Runtime JS: en/mobile/partners
+PASS	Runtime JS: en/mobile/contact
+PASS	Runtime JS: en/mobile/route-that-does-not-exist
+PASS	Runtime JS: en/desktop/
+PASS	Runtime JS: en/desktop/gallery
+PASS	Runtime JS: en/desktop/projects
+PASS	Runtime JS: en/desktop/certificates
+PASS	Runtime JS: en/desktop/partners
+PASS	Runtime JS: en/desktop/contact
+PASS	Runtime JS: en/desktop/route-that-does-not-exist
+
+STATUS	PASS
+PASS	67
+WARN	0
+FAIL	0

@@ -1,0 +1,11 @@
+{
+  "name": "MM Production Handoff Audit + Security Headers",
+  "version": "1.0.0",
+  "scope": "verification-and-security-hardening",
+  "changes": [
+    "Add production audit script",
+    "Add npm run verify:production command",
+    "Merge safe Vercel security headers",
+    "Generate text and JSON handoff audit reports"
+  ]
+}

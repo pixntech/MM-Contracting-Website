@@ -1,0 +1,5 @@
+{
+  "name": "MM Production Audit Repair Hotfix",
+  "version": "1.0.0",
+  "purpose": "Repair JSON encoding and production verification scope after first handoff audit run"
+}

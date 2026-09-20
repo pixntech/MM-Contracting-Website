@@ -1,0 +1,5 @@
+{
+  "name": "MM Final Production Cleanup Hotfix",
+  "version": "1.0.0",
+  "purpose": "Resolve production handoff audit failures/warnings and harden the static frontend before delivery"
+}

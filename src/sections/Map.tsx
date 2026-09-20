@@ -1,6 +1,6 @@
-import { useTranslation } from 'react-i18next'
+﻿import { useTranslation } from 'react-i18next'
 import { Icon } from '../components/ui/Icon'
-import { COMPANY, getDirectionsUrl, getMapEmbedUrl } from '../constants'
+import { getDirectionsUrl, getMapEmbedUrl } from '../constants'
 
 export function Map() {
   const { t } = useTranslation()
@@ -26,8 +26,8 @@ export function Map() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-primary mb-1">{t('map.officeLabel')}</p>
-                <h3 className="text-xl font-bold text-title mb-2">{COMPANY.name}</h3>
-                <p className="text-body text-sm leading-relaxed">{COMPANY.address}</p>
+                <h3 className="text-xl font-bold text-title mb-2">{t('company.legalName')}</h3>
+                <p className="text-body text-sm leading-relaxed">{t('company.address')}</p>
               </div>
             </div>
 
@@ -59,3 +59,4 @@ export function Map() {
     </section>
   )
 }
+

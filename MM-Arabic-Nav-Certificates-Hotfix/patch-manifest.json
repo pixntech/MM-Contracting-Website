@@ -1,0 +1,57 @@
+{
+  "updated_or_added": [
+    {
+      "path": "src/components/layout/Footer.tsx",
+      "sha256": "554ab28f07036afe7f3f4dffc269489ad5031fe6fddc4fef759243fdc9983cc4"
+    },
+    {
+      "path": "src/components/layout/Header.tsx",
+      "sha256": "056095d8d406c85e7d3aec01ea3ff276c494170c217749822af82a5e821c5c90"
+    },
+    {
+      "path": "src/components/ui/CertificateCard.tsx",
+      "sha256": "47e8d9dd311826a0b2f507f823f3f014cda03112e9b5bfa990f7f509aaffb43a"
+    },
+    {
+      "path": "src/components/ui/CertificateModal.tsx",
+      "sha256": "575a624b0db7fbbe116beee54605370f2581a6471c412b3609811d09b4a3c5c0"
+    },
+    {
+      "path": "src/data/industries.ts",
+      "sha256": "6b3ec9879a9413edeb23ab306845da8323a8f528a7490d306ce5bf225294c9f7"
+    },
+    {
+      "path": "src/i18n/locales/ar.json",
+      "sha256": "23a31af79dbd5b57008f5f612e03072528f625b0148172c66a84fe1dd0686ae5"
+    },
+    {
+      "path": "src/i18n/locales/en.json",
+      "sha256": "1c8b7da17ddfc43bbdb5a4db9875a3ea9efdf78ae320211c688ce00c8cb3eec2"
+    },
+    {
+      "path": "src/pages/CertificatesPage.tsx",
+      "sha256": "37e1acb006c7275aa452d8ebaaa157f526a6005f6e1a04b062173f60444060a3"
+    },
+    {
+      "path": "src/sections/About.tsx",
+      "sha256": "28b0415812b445f5806ae96a7038b6ecef115ecdeb4ceec70b10b5cf099596f7"
+    },
+    {
+      "path": "src/sections/Certificates.tsx",
+      "sha256": "dbcf8cea555c1b70df887bbc3ff76f2999a8e8057d70634e65c4aa1ec19c12cc"
+    },
+    {
+      "path": "src/sections/Contact.tsx",
+      "sha256": "c232100b93e9685c8a5e8a59adf97be9f3ca6fa8bb77e1f82ce2ac35b371bac7"
+    },
+    {
+      "path": "src/sections/Map.tsx",
+      "sha256": "da71f8c804283353b01f4367f7adc1fe97b3dfbe75ae3a4b0e0435ecbd1ff1f1"
+    }
+  ],
+  "never_touched": [
+    ".env*",
+    "node_modules/**",
+    ".git/**"
+  ]
+}

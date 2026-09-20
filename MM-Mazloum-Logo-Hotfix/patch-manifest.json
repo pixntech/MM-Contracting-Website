@@ -1,0 +1,8 @@
+{
+  "name": "MM Mazloum Logo Hotfix",
+  "version": "1.0.0",
+  "changes": [
+    "Replace Mazloum fallback with provided logo",
+    "Update clients data to point to local Mazloum logo asset"
+  ]
+}
